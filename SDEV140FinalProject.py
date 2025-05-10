@@ -11,7 +11,7 @@ window = tk.Tk()
 window.title("BudgetBeast")
 window.geometry("300x400")
 
-icon = tk.PhotoImage(window, file="BudgetBeastLogo.png")
+icon = tk.PhotoImage(file="BudgetBeastLogo.png")
 window.iconphoto(True, icon)
 
 firstLabel = tk.Label(window, text="BudgetBeast Budget Tracker",
